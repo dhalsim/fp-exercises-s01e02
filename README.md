@@ -7,7 +7,7 @@
 ## Kurulum
 
 ~~~
-docker pull dhalsim/fp-exercises
+docker pull dhalsim/fp-exercises-s01e02
 ~~~
 
 ## Egzersizleri derleme
