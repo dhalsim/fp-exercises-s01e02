@@ -16,6 +16,7 @@ Dosyalar:
 
 * exercise01.ts
 * exercise02.ts
+* exercise03.ts
 
 Typescript derlemek için önce:
 
@@ -26,13 +27,7 @@ docker run -it --entrypoint sh fp-exercises
 ile interactive shell olarak açıp, sonra da:
 
 ~~~
-tsc -t es6 --strictNullChecks exercise01.ts
-~~~
-
-ve
-
-~~~
-tsc -t es6 --strictNullChecks exercise02.ts
+tsc
 ~~~
 
 ile derliyoruz.
@@ -44,4 +39,5 @@ Yine interactive shell'deyken:
 ~~~
 node exercise01.js
 node exercise02.js
+node exercise03.js
 ~~~
