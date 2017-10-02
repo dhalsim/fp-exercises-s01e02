@@ -16,6 +16,7 @@ Dosyalar:
 
 * exercise01.ts
 * exercise02.ts
+* exercise03.ts
 
 Typescript derlemek için önce:
 

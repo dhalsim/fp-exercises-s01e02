@@ -1,13 +1,11 @@
-interface User {
+export interface User {
     id: number;
     name: string
 }
 
-let users: [User] = [
-    { id: 1, name: "User 1" },
-    { id: 2, name: "User 2" }
+export let users: [User] = [
+    { id: 1, name: "halide" },
+    { id: 2, name: "edip" }
 ];
 
-let getUserById = (id: number): User => users.find(x => x.id === id);
-
-console.log(getUserById(1));
+export let getUserById = (id: number): User => users.find(x => x.id === id);

@@ -1,13 +1,6 @@
-interface User {
-    id: number;
-    name: string
-}
+import { User, users, getUserById } from "./exercise02";
 
-let users: [User] = [
-    { id: 1, name: "User 1" },
-    { id: 2, name: "User 2" }
-];
+let getUserName = (user: User): string => user.name
 
-let getUserById = (id: number): User | undefined => users.find(x => x.id === id);
-
-console.log(getUserById(1));
+console.log(getUserName(getUserById(1)))
+console.log(getUserName(getUserById(3)))
