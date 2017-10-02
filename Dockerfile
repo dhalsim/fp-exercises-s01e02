@@ -7,3 +7,5 @@ USER root
 RUN chown -R app /app
 
 USER app
+
+ENTRYPOINT ["tsc"]

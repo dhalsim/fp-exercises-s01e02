@@ -1,4 +1,4 @@
-import { User, users, getUserById } from "./exercise02";
+import { User, users, getUserById } from "./exercise01";
 
 let getUserName = (user: User): string => user.name
 
