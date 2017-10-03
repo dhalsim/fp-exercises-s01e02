@@ -4,7 +4,7 @@ let getUserName = (user: User): string => {
   if(user) { 
     return user.name 
   } else { 
-    return null; 
+    return ""; 
   } 
 };
 
