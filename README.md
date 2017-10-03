@@ -17,6 +17,8 @@ Dosyalar:
 * exercise01.ts
 * exercise02.ts
 * exercise03.ts
+* exercise04.ts
+* option.ts
 
 Typescript derlemek için önce:
 
@@ -38,6 +40,6 @@ Yine interactive shell'deyken:
 
 ~~~
 node exercise01.js
-node exercise02.js
-node exercise03.js
 ~~~
+
+şeklinde çalıştırabilirsiniz.
